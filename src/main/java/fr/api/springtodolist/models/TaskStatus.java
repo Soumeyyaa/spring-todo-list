@@ -2,7 +2,5 @@ package fr.api.springtodolist.models;
 
 public enum TaskStatus {
     TODO,
-    INPROGRESS,
-
-    DONE
+    IN_PROGRESS, DONE
 }

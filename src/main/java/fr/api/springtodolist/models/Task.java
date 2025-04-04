@@ -29,6 +29,7 @@ public class Task {
 
     public Task() {
         this.createdAt = LocalDateTime.now();
+        this.updatedAt = LocalDateTime.now();
     }
 
     public void setId(Long id) {
